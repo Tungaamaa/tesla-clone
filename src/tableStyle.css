@@ -1,0 +1,37 @@
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+ 
+ .items {
+    display: none;
+  }
+
+#videoFullScreen {
+    object-fit: cover;
+    width: 100%;
+}
+#bannerContainer {
+  width: 100vw;
+  height: 70px;
+  background-image: radial-gradient(
+    54.97% 272.54% at 27.36% -134.72%,
+    rgba(108, 148, 255, 0.92) 0,
+    rgba(0, 0, 0, 0.92) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#bannerText {
+  font-size: 18px;;
+}
+#model3 {
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-NA.jpg);
+  background-image: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 820px;
+  height: 900px;
+  
+  
+
+}
+}
